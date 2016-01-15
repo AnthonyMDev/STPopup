@@ -132,4 +132,9 @@ typedef NS_ENUM(NSUInteger, STPopupTransitionStyle) {
  */
 - (UIViewController *)topViewController;
 
+/**
+ The view controller that presented the popup.
+ */
+- (UIViewController *)presentingViewController;
+
 @end
